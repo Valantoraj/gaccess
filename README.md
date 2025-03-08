@@ -37,44 +37,44 @@ Commands - Purpose - Syntax
 
 Authentication and Session Management
 
-init	Initialize authentication	python gaccess.py init
-login	Login with new or existing session	python gaccess.py login [new/existing]
-logout	Logout from current session	python gaccess.py logout
+init	Initialize authentication	gaccess init
+login	Login with new or existing session	gaccess login [new/existing]
+logout	Logout from current session	gaccess logout
 
 Email Management (Gmail)
 
-listemails	List recent emails	python gaccess.py listemails
-sendemail	Send an email	python gaccess.py sendemail <to> <subject> <body>
-viewemail	View emails from a specific sender	python gaccess.py viewemail <sender_email>
+listemails	List recent emails	gaccess listemails
+sendemail	Send an email	gaccess sendemail <to> <subject> <body>
+viewemail	View emails from a specific sender	gaccess viewemail <sender_email>
 
 File Management (Google Drive)
 
-listdrive	List files in Google Drive	python gaccess.py listdrive
-findfile	Search for a file in Google Drive	python gaccess.py findfile <filename>
-downloadfile	Download a file from Google Drive	python gaccess.py downloadfile <filename>
-uploadfile	Upload a file to Google Drive	python gaccess.py uploadfile <file_path> [folder_id]
+listdrive	List files in Google Drive	gaccess listdrive
+findfile	Search for a file in Google Drive	gaccess findfile <filename>
+downloadfile	Download a file from Google Drive	gaccess downloadfile <filename>
+uploadfile	Upload a file to Google Drive	gaccess uploadfile <file_path> [folder_id]
 
 Calendar Management (Google Calendar)
 
-listcalendar	List upcoming calendar events	python gaccess.py listcalendar
-addcalendar	Add a new calendar event	python gaccess.py addcalendar <summary> <start_time> <end_time> [description] [location]
-deletecalendar	Delete a calendar event	python gaccess.py deletecalendar <event_name>
+listcalendar	List upcoming calendar events	gaccess listcalendar
+addcalendar	Add a new calendar event	gaccess addcalendar <summary> <start_time> <end_time> [description] [location]
+deletecalendar	Delete a calendar event	gaccess deletecalendar <event_name>
 
 Google Search and News
 
-search	Perform a Google search	python gaccess.py search <query>
-vsearch	Perform a voice-activated search	python gaccess.py vsearch
-fetchnews	Fetch news for a specific country	python gaccess.py fetchnews <country_name>
+search	Perform a Google search	gaccess search <query>
+vsearch	Perform a voice-activated search	gaccess vsearch
+fetchnews	Fetch news for a specific country	gaccess fetchnews <country_name>
 
 Spreadsheet Management (Google Sheets)
 
-createsheet	Create a new Google Sheet	python gaccess.py createsheet <title>
-writesheet	Write data to a Google Sheet	python gaccess.py writesheet <spreadsheet_id> <data>
-displaysheet	Display contents of a Google Sheet	python gaccess.py displaysheet <spreadsheet_id>
-uploadsheet	Upload a Google Sheet to Drive	python gaccess.py uploadsheet <spreadsheet_id>
-summarizesheet	Generate an AI summary of a Google Sheet	python gaccess.py summarizesheet <spreadsheet_id>
+createsheet	Create a new Google Sheet	gaccess createsheet <title>
+writesheet	Write data to a Google Sheet	gaccess writesheet <spreadsheet_id> <data>
+displaysheet	Display contents of a Google Sheet	gaccess displaysheet <spreadsheet_id>
+uploadsheet	Upload a Google Sheet to Drive	gaccess uploadsheet <spreadsheet_id>
+summarizesheet	Generate an AI summary of a Google Sheet	gaccess summarizesheet <spreadsheet_id>
 
 AI Features (Gemini)
 
-gemini	Start an interactive chat with Gemini AI	python gaccess.py gemini
-prompt	Generate text using Gemini AI	python gaccess.py prompt <your_prompt>
+gemini	Start an interactive chat with Gemini AI	gaccess gemini
+prompt	Generate text using Gemini AI	gaccess prompt <your_prompt>
